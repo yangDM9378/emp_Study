@@ -14,9 +14,9 @@
 |02/24|진행완료|백준|Lv.1|기타줄|https://www.acmicpc.net/problem/1049|baek_1049.py|
 |02/24|진행완료|백준|Lv.2|회전하는 큐|https://www.acmicpc.net/problem/1021|baek_1021.py|
 |02/27|진행완료|백준|Lv.2|킹|https://www.acmicpc.net/problem/1063|baek_1063.py|
-|02/27|진행중|백준|Lv.2|친구|https://www.acmicpc.net/problem/1058|baek_1058.py|
+|02/27|진행완료|백준|Lv.2|친구|https://www.acmicpc.net/problem/1058|baek_1058.py|
 
 ## CS 공부
 |날짜|진행사항|공부내용|관련자료|
 |----|----|----|----|
-|02/24|진행중|인공지능|Google|
+|02/24|진행완료|인공지능|Google|
