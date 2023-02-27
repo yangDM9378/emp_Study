@@ -1,22 +1,24 @@
-N = int(input())
+def find_friend(start, current, end, cnt):
+    if cnt == 2:
+        return
+    for cur_index in range(end):
+        if start != cur_index and friends[current][cur_index] == "Y":
+            connected[start][cur_index] = 1
+            find_friend(start, cur_index, end, cnt + 1)
 
+N = int(input())
+connected = [[0] * N for _ in range(N)]
 friends = []
+
 for i in range(N):
     friends.append(input())
 
-connected = [[0] * N for _ in range(N)]
-
-for k in range(N):
-    for i in range(N):
-        for j in range(N):
-            if i == j:
-                continue
-            if friends[i][j] == "Y" or (friends[i][k] == "Y" and friends[k][j] == "Y"):
-                connected[i][j] = 1
+for i in range(N):
+    find_friend(i, i, N, 0)
 
 result = 0
 
 for con in connected:
-    result = max(sum(con), result)
-
+    result = max(result, sum(con))
+    
 print(result)
