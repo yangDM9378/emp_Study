@@ -4,6 +4,7 @@
 |날짜|진행상태|지원회사(지원직무)|
 |----|----|----|
 |02/19|진행완료|엠로|
+|03/12|진행완료|가비아|
 |03/17|진행중|브이엠에스솔루션|
 |03/20|진행중|라온|
 
@@ -22,6 +23,9 @@
 |02/27|진행완료|백준|Lv.2|킹|https://www.acmicpc.net/problem/1063|baek_1063.py|
 |02/27|진행완료|백준|Lv.2|친구|https://www.acmicpc.net/problem/1058|baek_1058.py|
 |03/03|진행완료|백준|Lv.2|언더프라임|https://www.acmicpc.net/problem/1124|baek_1124.py|
+|03/13|진행완료|프로그래머스|Lv.2|덧칠하기|https://school.programmers.co.kr/learn/courses/30/lessons/161989|pro_덧칠하기.py|
+|03/13|진행완료|프로그래머스|Lv.1|완주하지 못한 선수|https://school.programmers.co.kr/learn/courses/30/lessons/42576|pro_완주하지 못한 선수.py|
+|03/13|진행완료|프로그래머스|Lv.1|포켓몬|https://school.programmers.co.kr/learn/courses/30/lessons/1845|pro_포켓몬.py|
 
 ## CS 공부
 |날짜|진행사항|공부내용|관련자료|
